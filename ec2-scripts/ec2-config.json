@@ -3,7 +3,7 @@
 	"instanceType" : "t2.micro",
 	"keyName" : "vasudha-key",
 	"securityGroupIds" : "sg-00994774d3b38e6f2",	
-	"blockDeviceMappings" : "blockdevice-mapping.json",
+	"blockDeviceMappings" : "file://blockdevice-mapping.json",
 	"subnetId" : "subnet-f0ef8cde",
 	"userDataFile" : "user-data.sh",
 	"tagSpecifications" : "ResourceType=instance,Tags=[{Key=Name,Value=$ec2-name}] "
