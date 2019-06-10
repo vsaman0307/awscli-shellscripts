@@ -6,5 +6,5 @@
 	"blockDeviceMappings" : "file://blockdevice-mapping.json",
 	"subnetId" : "subnet-f0ef8cde",
 	"userDataFile" : "user-data.sh",
-	"tagSpecifications" : "ResourceType=instance,Tags=[{Key=Name,Value=$ec2-name}] "
+	"tagSpecifications" : "ResourceType=instance,Tags=[{Key=Name,Value=Dev}] "
    }
