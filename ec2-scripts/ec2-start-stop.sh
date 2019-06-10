@@ -34,7 +34,7 @@ elif [ "$1" = "stop" ]; then
     $DEBUG aws ec2 stop-instances --instance-ids $INSTANCE_ID --region $REGION
     EXIT=$?
   else
-    echo "instance is already stopped."
+    echo "instance is already stopped"
   fi
 elif [ "$1" = "status" ]; then
   echo "Status Check only."
